@@ -67,7 +67,7 @@ media_store_path: /var/lib/matrix-synapse/media
 signing_key_path: "/etc/matrix-synapse/homeserver.signing.key"
 trusted_key_servers:
   - server_name: "matrix.org"
-enable_registration: false
+enable_registration: true
 registration_shared_secret: "$passwd_matrix"
 
 EOF
